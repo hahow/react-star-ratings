@@ -15,7 +15,7 @@ npm install --save react-star-ratings
 
 ### Demo Example Image
 
-![](http://i.imgur.com/a8eWxhd.png)
+![](https://user-images.githubusercontent.com/18576075/34474423-84885222-efb9-11e7-829f-27b34b00363f.gif)
 
 ## Usage
 
@@ -68,11 +68,12 @@ class Bar extends Component {
 | changeRating | function | ()=>{} | Callback that will be passed the new rating a user selects | `const setNewRating = (rating) => this.props.dispatch( fooActions.setRating(rating) )` |
 | isSelectable | boolean | false | Determines whether user can select a new rating or whether the stars are just for display | `true` |
 | isAggregateRating | boolean | true | Determines whether stars' will show a fraction of a star (.5 stars) | `false` |
-| starSelectingHoverColor | string | 'rgb(230, 67, 47)' | Color of star when hovering over it in selection mode | `yellow` |
-| starRatedColor | string | 'rgb(109, 122, 130)' | Color of stars that the user has rated | `black` |
-| starEmptyColor | string | 'rgb(203, 211, 227)' | Color of stars that the use hasn't rated | `grey` |
-| starWidthAndHeight | string | '50px' | The width and height of the star | `15px` |
-| starSpacing | string | '7px' | The spacing between the stars | `0` |
+| starHoverColor | string | '#fa8b00' | Color of star when hovering over it | `yellow` |
+| starSelectingColor | string | '#ffb115' | Color of star when selecting it | `yellow` |
+| starRatedColor | string | '#ffb115' | Color of stars that the user has rated | `black` |
+| starEmptyColor | string | '#cccccc' | Color of stars that the use hasn't rated | `grey` |
+| starWidthAndHeight | string | '25px' | The width and height of the star | `15px` |
+| starSpacing | string | '0px' | The spacing between the stars | `0` |
 | gradientPathName | string | '' | gradientPathname needed if app's path is not at the root | `/app/` |
 | ignoreInlineStyles | boolean | false | ignore all the inline styles and write your own css using the provided classes | `true` | 
 
