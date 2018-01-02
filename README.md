@@ -2,18 +2,7 @@
 
 > Customizable react star ratings. SVG stars that show aggregate star ratings to the hundreths decimal point.
 
-## [Install](https://www.npmjs.com/package/react-star-ratings)
-
-```shell
-npm install --save react-star-ratings
-```
-
-## Demo
-
-### [codepen playground](https://codepen.io/ekeric13/project/full/DkJYpA/)
-
-
-### Demo Example Image
+## Demo Example Image
 
 ![](https://user-images.githubusercontent.com/18576075/34474423-84885222-efb9-11e7-829f-27b34b00363f.gif)
 
